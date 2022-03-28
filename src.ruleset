@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Application rules" Description="This rule set contains the rules that applies to sources" ToolsVersion="16.0">
+  <IncludeAll Action="Error" />
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA0001" Action="None" />
+    <Rule Id="SA0008" Action="None" />
+    <Rule Id="SA1005" Action="None" />
+    <Rule Id="SA1101" Action="None" />
+    <Rule Id="SA1116" Action="None" />
+    <Rule Id="SA1117" Action="None" />
+    <Rule Id="SA1127" Action="None" />
+    <Rule Id="SA1128" Action="None" />
+    <Rule Id="SA1139" Action="None" />
+    <Rule Id="SA1200" Action="None" />
+    <Rule Id="SA1202" Action="None" />
+    <Rule Id="SA1204" Action="None" />
+    <Rule Id="SA1308" Action="None" />
+    <Rule Id="SA1309" Action="None" />
+    <Rule Id="SA1314" Action="None" />
+    <Rule Id="SA1402" Action="None" />
+    <Rule Id="SA1404" Action="None" />
+    <Rule Id="SA1405" Action="None" />
+    <Rule Id="SA1413" Action="None" />
+    <Rule Id="SA1502" Action="None" />
+    <Rule Id="SA1512" Action="None" />
+    <Rule Id="SA1513" Action="None" />
+    <Rule Id="SA1515" Action="None" />
+    <!--ElementsMustBeDocumented-->
+    <Rule Id="SA1600" Action="None" />
+    <!--ElementParametersMustBeDocumented-->
+    <Rule Id="SA1611" Action="None" />
+    <!--ElementReturnValueDocumentationMustHaveText-->
+    <Rule Id="SA1615" Action="None" />
+    <!--GenericTypeParametersMustBeDocumented-->
+    <Rule Id="SA1618" Action="None" />
+    <!--FileMustHaveHeader-->
+    <Rule Id="SA1633" Action="None" />
+
+    <!-- SA1614MessageFormat: Element parameter documentation should have text-->
+    <Rule Id="SA1614" Action="None" />
+    <!-- SA1616MessageFormat: Element return value documentation should have text-->
+    <Rule Id="SA1616" Action="None" />
+    <!-- IDE0008: Use explicit type instead of 'var' -->
+    <Rule Id="IDE0008" Action="None" />
+    <!-- IDE0017: Object initialization can be simplified-->
+    <Rule Id="IDE0017" Action="None" />
+    <!--SA1629DocumentationTextMustEndWithAPeriod: Documentation text should end with a period-->
+    <Rule Id="SA1629" Action="None" />
+    <!--SA1629: Do not prefix calls with base unless local implementation exists-->
+    <Rule Id="SA1100" Action="None" />
+    <!--SA1516ElementsMustBeSeparatedByBlankLine: Elements should be separated by blank line-->
+    <Rule Id="SA1516" Action="None" />
+    <!--SA1000: Keywords should be spaced correctly, should be handled by ec. (reduce noise conflicts)-->
+    <Rule Id="SA1000" Action="None" />
+  </Rules>
+</RuleSet>
